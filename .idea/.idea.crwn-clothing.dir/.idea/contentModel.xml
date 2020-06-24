@@ -72,6 +72,7 @@
       <e p="node_modules\csstype" t="IncludeRecursive" />
       <e p="node_modules\dotenv" t="IncludeRecursive" />
       <e p="node_modules\dotenv-expand" t="IncludeRecursive" />
+      <e p="node_modules\expect" t="IncludeRecursive" />
       <e p="node_modules\expo" t="IncludeRecursive" />
       <e p="node_modules\expo-asset" t="IncludeRecursive" />
       <e p="node_modules\expo-constants" t="IncludeRecursive" />
@@ -90,9 +91,11 @@
       <e p="node_modules\html-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\idb" t="IncludeRecursive" />
       <e p="node_modules\jest" t="IncludeRecursive" />
+      <e p="node_modules\jest-get-type" t="IncludeRecursive" />
       <e p="node_modules\jest-haste-map" t="IncludeRecursive" />
       <e p="node_modules\jest-message-util" t="IncludeRecursive" />
       <e p="node_modules\jest-mock" t="IncludeRecursive" />
+      <e p="node_modules\jest-regex-util" t="IncludeRecursive" />
       <e p="node_modules\jest-resolve" t="IncludeRecursive" />
       <e p="node_modules\jest-serializer" t="IncludeRecursive" />
       <e p="node_modules\jest-util" t="IncludeRecursive" />
@@ -105,10 +108,18 @@
       <e p="node_modules\react" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
       <e p="node_modules\react-native-view-shot" t="IncludeRecursive" />
+      <e p="node_modules\react-redux" t="IncludeRecursive" />
       <e p="node_modules\react-router-dom" t="IncludeRecursive" />
       <e p="node_modules\react-scripts" t="IncludeRecursive" />
+      <e p="node_modules\react-stripe-checkout" t="IncludeRecursive" />
       <e p="node_modules\realpath-native" t="IncludeRecursive" />
+      <e p="node_modules\redux" t="IncludeRecursive" />
+      <e p="node_modules\redux-logger" t="IncludeRecursive" />
+      <e p="node_modules\redux-persist" t="IncludeRecursive" />
+      <e p="node_modules\reselect" t="IncludeRecursive" />
+      <e p="node_modules\rxjs" t="IncludeRecursive" />
       <e p="node_modules\source-map" t="IncludeRecursive" />
+      <e p="node_modules\symbol-observable" t="IncludeRecursive" />
       <e p="node_modules\tslib" t="IncludeRecursive" />
       <e p="node_modules\unimodules-permissions-interface" t="IncludeRecursive" />
       <e p="node_modules\upath" t="IncludeRecursive" />
