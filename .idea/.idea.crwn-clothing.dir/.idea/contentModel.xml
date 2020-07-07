@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Adam\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Adam\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Adam\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.03" t="ExcludeRecursive" />
     <e p="E:\react native\crwn-clothing" t="IncludeFlat">
       <e p="node_modules\@babel\parser" t="IncludeRecursive" />
       <e p="node_modules\@babel\types" t="IncludeRecursive" />
@@ -66,6 +66,7 @@
       <e p="node_modules\@unimodules\react-native-adapter" t="IncludeRecursive" />
       <e p="node_modules\babel-jest" t="IncludeRecursive" />
       <e p="node_modules\badgin" t="IncludeRecursive" />
+      <e p="node_modules\bootstrap" t="IncludeRecursive" />
       <e p="node_modules\chalk" t="IncludeRecursive" />
       <e p="node_modules\chokidar" t="IncludeRecursive" />
       <e p="node_modules\compare-versions" t="IncludeRecursive" />
@@ -106,6 +107,7 @@
       <e p="node_modules\pretty-format" t="IncludeRecursive" />
       <e p="node_modules\protobufjs" t="IncludeRecursive" />
       <e p="node_modules\react" t="IncludeRecursive" />
+      <e p="node_modules\react-bootstrap" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
       <e p="node_modules\react-native-view-shot" t="IncludeRecursive" />
       <e p="node_modules\react-redux" t="IncludeRecursive" />
@@ -116,9 +118,11 @@
       <e p="node_modules\redux" t="IncludeRecursive" />
       <e p="node_modules\redux-logger" t="IncludeRecursive" />
       <e p="node_modules\redux-persist" t="IncludeRecursive" />
+      <e p="node_modules\redux-thunk" t="IncludeRecursive" />
       <e p="node_modules\reselect" t="IncludeRecursive" />
       <e p="node_modules\rxjs" t="IncludeRecursive" />
       <e p="node_modules\source-map" t="IncludeRecursive" />
+      <e p="node_modules\styled-components" t="IncludeRecursive" />
       <e p="node_modules\symbol-observable" t="IncludeRecursive" />
       <e p="node_modules\tslib" t="IncludeRecursive" />
       <e p="node_modules\unimodules-permissions-interface" t="IncludeRecursive" />

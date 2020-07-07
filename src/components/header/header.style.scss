@@ -23,4 +23,7 @@
       cursor: pointer;
     }
   }
+  @media (max-width: 480px) {
+    .options{width: 100%}
+  }
 }

@@ -11,6 +11,9 @@ import {connect} from "react-redux";
 import {createStructuredSelector} from "reselect";
 import {selectCurrentUser} from "./redux/user/user.selectors";
 import CheckoutPage from "./pages/checkout/checkout.component";
+import PostsPage from "./pages/posts/posts.component";
+
+
 
 
 
@@ -18,8 +21,11 @@ class App extends React.Component {
 
     unsubscribeFromAuth = null;
 
+
     componentDidMount() {
         const {setCurrentUser} = this.props;
+        //const sectionsArray = this.props.sections;
+
 
         this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
             if (userAuth) {
@@ -32,9 +38,10 @@ class App extends React.Component {
                     });
 
                 })
-            } else {
-                setCurrentUser(userAuth);
             }
+                setCurrentUser(userAuth);
+                //addCollectionAndDocuments('sections', sectionsArray);
+
         })
     }
 
@@ -51,6 +58,7 @@ class App extends React.Component {
                     <Route exact path='/' component={HomePage}/>
                     <Route path='/shop' component={ShopPage}/>
                     <Route exact path='/checkout' component={CheckoutPage} />
+                    <Route path='/users' component={PostsPage} />
                     <Route exact
                            path='/signin'
                            render={() =>
@@ -69,7 +77,8 @@ class App extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector ({
-    currentUser: selectCurrentUser
+    currentUser: selectCurrentUser,
+    //sections:selectDirectorySections
 });
 
 const mapDispatchToProps = dispatch => ({

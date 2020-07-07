@@ -7,6 +7,13 @@
   align-items: center;
   padding: 1%;
   position: relative;
+  @media(max-width: 1024px) {
+    flex: 0 0 48%;
+  }
+  @media(max-width: 480px) {
+    min-width: 300px;
+    flex: 0 0 100%;
+  }
 
   .image {
     width: 100%;

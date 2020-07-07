@@ -2,6 +2,9 @@
   width: 380px;
   display: flex;
   flex-direction: column;
+  @media (max-width: 480px) {
+    width: 85%;
+  }
 }
 
 .title{

@@ -4,6 +4,7 @@ import "./directory.style.scss"
 import {createStructuredSelector} from "reselect";
 import {selectDirectorySections} from "../../redux/directory/directory.selectors";
 import {connect} from "react-redux";
+import {select_g_collection} from "../../redux/general.selectors";
 
 
 const Directory = ({sections}) => (
@@ -15,7 +16,7 @@ const Directory = ({sections}) => (
 );
 
 const mapStateToProps = createStructuredSelector  ({
-    sections: selectDirectorySections
+    sections: select_g_collection
 });
 
 export default connect(mapStateToProps)(Directory);

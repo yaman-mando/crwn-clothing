@@ -1,19 +1,19 @@
 ﻿import React from "react";
 import './collection.style.scss'
-import {createStructuredSelector} from "reselect";
-import {selectCollection} from "../../redux/collection/collection.selector";
 import {connect} from "react-redux";
 import CollectionItem from "../../components/collection-item/collection-item.component";
-import {selectorCollectionByUrl} from "../../redux/shop/shop.selectors";
+import {selectCollection} from "../../redux/shop/shop.selectors";
+
 
 
 const CollectionPage = ({collection}) => {
+    const { title, items } = collection;
     return (
         <div className='collection'>
-            <h2 style={{textAlign:"center",fontWeight:"bold",fontSize:36}}>{collection.title}</h2>
+            <h2 style={{textAlign:"center",fontWeight:"bold",fontSize:36}}>{title}</h2>
             <div className='preview'>
             {
-                collection.items.map(item => (
+                items.map(item => (
                     <CollectionItem key={item.id} item={item} />
                 ))
             }
@@ -24,7 +24,7 @@ const CollectionPage = ({collection}) => {
 };
 
 const mapStateToProps = (state,ownProps) => ({
-    collection: selectorCollectionByUrl(ownProps.match.params.collectionId)(state)
+    collection: selectCollection(ownProps.match.params.collectionId)(state)
 });
 
 export default connect(mapStateToProps)(CollectionPage);

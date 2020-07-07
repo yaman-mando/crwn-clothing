@@ -4,13 +4,13 @@ import CollectionItem from "../collection-item/collection-item.component";
 import {withRouter} from "react-router-dom";
 
 
-const CollectionPreview = ({title,items,history,match}) => {
+const CollectionPreview = ({title,items,history,match,routeName}) => {
     return(
         <div className='collection-preview'>
 
             <h1 className='title'
                 onClick={()=> {
-                    history.push(`${match.url}/${title.toLowerCase()}`)
+                    history.push(`${match.path}/${routeName}`)
                 }
                 }>
                 {title.toUpperCase()}
